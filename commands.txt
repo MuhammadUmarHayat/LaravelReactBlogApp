@@ -1,0 +1,72 @@
+composer create-project --prefer-dist laravel/laravel blog-app-backend "10.*"
+cd blog-app-backend
+code .
+php artisan serve
+//front end configurations
+node --version
+npm create vite@latest
+project name>>react-blog-frontend
+>React
+>Javascript
+>>cd react-blog-frontend
+>>npm install
+>>npm run dev
+>>open http://localhost:5173/
+>>code .
+>>app.jsx
+go>https://react-bootstrap.netlify.app/
+>>npm install react-bootstrap bootstrap
+>>>>npm i react-router-dom
+https://icons.getbootstrap.com/
+rafce
+Es7+React/Redux snipets
+simple React snippets
+react-simple-wysiwyg
+https://www.npmjs.com/package/react-simple-wysiwyg
+>>>npm i react-simple-wysiwyg
+
+//backend
+>>cd blog-app-backend>>code .
+>>php artisan make:migration create_blogs_table
+php artisan migrate
+>>https://www.postman.com/downloads/>>postman api download
+php artisan make:controller BlogController 
+php artisan make:model Blog
+php artisan serve
+http://127.0.0.1:8000/api/blogs
+postmain:http://127.0.0.1:8000/api/blogs
+postmain>>body>>row >json
+{
+    "title" : "title123",
+    "author" : "umar Hayat",
+     "shortDesc" : "shortDesc", 
+     "description" : "description"
+      
+}
+//frontend add blog
+
+cd react-blog-frontend
+
+live backend as well >>blog-app-backend>>cmd>>php artisan serve
+ http://localhost:5173/
+//install react hock form to validate form
+npm install react-hook-form
+npm i react-toastify
+
+//to store image we use new api in backend
+>>cd blog-app-backend>>code .
+php artisan make:migration create_temp_images_table
+php artisan migrate
+php artisan make:model TempImage
+php artisan make:controller TempImageController
+create folder in public name as uploads then create temp folder
+postman>>http://127.0.0.1:8000/api/save-temp-image
+postman>>form-data
+
+//frontend add blog
+cd react-blog-frontend
+cd react-blog-frontend
+
+GET: http://127.0.0.1:8000/api/blogs
+cd react-blog-frontend
+
